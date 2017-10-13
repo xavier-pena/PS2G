@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/greyishBlue"
+    tools:context="com.example.xadp5.ps2g_app.Main_SignIn">
+
+    <ImageView
+        android:id="@+id/ps2g"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:padding="30dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/emailField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/passField"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:ems="10"
+            android:hint="Email"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            android:textColorHint="@color/royalBlue"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="33dp" />
+
+        <EditText
+            android:id="@+id/passField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/LoginButton"
+            android:layout_alignLeft="@+id/emailField"
+            android:layout_alignStart="@+id/emailField"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:ems="10"
+            android:hint="Password"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            android:textColorHint="@color/royalBlue"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="175dp" />
+
+        <Button
+            android:id="@+id/LoginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/createAccount"
+            android:layout_centerHorizontal="true"
+            android:padding="20dp"
+            android:layout_weight="1"
+            android:text="Login"
+            android:layout_marginBottom="20dp"
+            android:background="@color/royalBlue"
+            />
+
+        <Button
+            android:id="@+id/createAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:text="New Account"
+            android:layout_marginBottom="20dp"
+            android:background="@color/royalBlue"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

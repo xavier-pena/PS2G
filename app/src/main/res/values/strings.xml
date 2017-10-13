@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FirebaseAuth</string>
+    <string name="DBA">PUBLIC SECTOR SOLUTIONS GROUP</string>>
+    <string name="shortDBA">PS2G</string>
+    <string name="office_number">(202)299-1011</string>
+    <string name="email">ivillanueva@PS2G.us</string>
+    <string name="mission1">The Public Sector Solutions Group( PS2G) is a technology driven company that provides innovative solutions to state and local government partners which enable them to achieve their performance goals and better service constituents at the most critical point of need. Our team leverages a deep knowledge of government programs, IT management systems, application development and specialized technical expertise to help clients achieve their performance goals while ensuring audit compliance and reporting for federally funded agencies.</string>
+    <string name="mission2">In 2000, Document Managers launched to fulfill the growing need of government agencies to digitize documents. We accomplished this mission swiftly and smartly – and soon realized we had the tools and expertise to give our clients more, from solutions that facilitate information transparency, data availability and workflow productivity to staff who assist with audit compliance, asset management and beyond.</string>
+    <string name="mission3">Today, Public Sector Solutions Group thrives as a sister company to Document Managers, completing a full suite of services that helps public sector organizations work more efficiently and respond more effectively to the needs of their constituents.</string>
+    <string name="mission4">Employees at both companies serve as trusted advisors for government agencies, publicly regulated utilities, hospitals and universities with efficiency, speed and ease.</string>
+    <string name="mission5">Our people make it all possible. With their considerable expertise in technology and government, they maximize resources, build proven solutions and help organizations across the United States serve constituents and shape the future.</string>
+</resources>
